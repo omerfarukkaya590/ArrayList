@@ -23,9 +23,9 @@ internal class Program
         List<int> sayılar = new List<int>(){1,8,5,6,874,1,5,6,8,7,4};    
         arlist.AddRange(sayılar);
         
-        //Sort-arraydeki iki elemanı sortlayamıyor çünkü int32 bulmaya çalışıyor sadec sayılar olması mantıklı sortlamak için
+        //Sort-arraydeki iki elemanı compare edemior çünkü int32 bulmaya çalışıyor sadec sayılar olması mantıklı sortlamak için
 
-         //Binary Search -binary search için ilk olarak sortlamamız lazım  
+         //Binary Search -binary search için ilk olarak compare etmemiz lazım  
          arlist.BinarySearch(9);
          //reverse
          arlist.Reverse();
